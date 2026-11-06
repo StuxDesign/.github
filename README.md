@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://global.media.stux.design/logo.png" alt="Stux.Design" width="360">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.design/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.design/logo-dark.png"><img src="https://global.media.stux.design/logo-dark.png" height="100" alt="Stux.Design Logo"></picture>
 </p>
 
 # .github
@@ -16,6 +16,7 @@ This repository contains the organization-wide configuration files for the Stux.
 
 - **Profile** — the public org profile shown at [github.com/StuxDesign](https://github.com/StuxDesign) (`profile/README.md`)
 - **Community Files** — contributing guidelines and other org-wide defaults
+- **Activity metrics** — `.github/workflows/generateMetrics.yml` renders the profile's "Our Activity" stats to the `metrics` branch daily (needs the `METRICS_TOKEN` secret)
 
 ## How It Works
 
@@ -38,9 +39,9 @@ This project uses [Date Versioning](https://datevers.ing): each release is numbe
 
 ## Copyright
 
-Copyright © 2026 Stux Group Ltd. All rights reserved.
+© 2026 Stux.Group. All rights reserved.
 
 ---
 
-*Built & Maintained by <img src="https://global.media.stux.design/icon.png" height="14" alt="Stux.Design" valign="middle"> [Stux.Design](https://github.com/StuxDesign), Hosted by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).  
+*Built & Maintained by <img src="https://global.media.stux.design/icon.png" height="14" alt="Stux.Design" valign="middle"> [Stux.Design](https://github.com/StuxDesign), Hosted by <img src="https://global.media.stuxedo.com/icon.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).  
 Stux.Design is a part of the <img src="https://global.media.stux.group/icon.png" height="14" alt="Stux.Group" valign="middle"> Stux.Group brand of businesses.*

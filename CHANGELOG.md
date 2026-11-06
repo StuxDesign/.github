@@ -1,9 +1,33 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to Stux.Design's `.github` organization repository are documented here. Each release's sections
+follow a fixed order: Added, Changed, Fixed, Removed, Security, Deprecated. This project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
-and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## v26.11.06
+
+### Added
+
+- The organisation profile lists Stux.Design's services, with full names: **Stux.Design**, **Stux.Design Services**
+  and **Stux.Design Status**, the four studio services, and the **Stux.Design Soonpage**, **Maintenancepage** and
+  **Servicepage** templates.
+- A **Service Status** section on the profile, with a live status badge linking
+  [status.stux.design](https://status.stux.design).
+
+### Changed
+
+- The profile's and README's header logo is the light/dark `<picture>` version (`logo-light.png` / `logo-dark.png`)
+  instead of the single `logo.png`.
+- The footer's Stuxedo icon comes from `global.media.stuxedo.com` rather than the GitHub avatar.
+- The README's copyright reads Stux.Group, as on the other Stux.Design repos, and the README describes the metrics
+  workflow.
+- `generateMetrics.yml` pins every job to the same, newer `gh-metrics/metrics` commit (`b594ca3`, as Stux.Group's
+  profile uses) instead of two different older ones.
+- `CONTRIBUTING.md` matches the release flow: changes go in a new `## vYY.MM.DD` entry (not `[Unreleased]`),
+  `commit.sh` takes a commit message, and the profile's conventions are written down.
+
+### Removed
+
+- The empty, misplaced `[Unreleased]` heading in this changelog.
 
 ## v26.10.23
 
@@ -16,8 +40,6 @@ and this project adheres to [Date Versioning](https://datevers.ing) since v26.10
 - Switched from Semantic Versioning to [Date Versioning](https://datevers.ing): releases are numbered by their UTC release date as `YY.MM.DD`, with `-1`, `-2`… for later releases the same day. This release follows v1.0.1
 - `commit.sh` and `commit.bat` refuse a `VERSION.md` that isn't a valid Date Version or is dated in the future (UTC), and warn when it's dated before today
 - `README.md` and `CONTRIBUTING.md` describe Date Versioning and the release steps
-
-## [Unreleased]
 
 ## [1.0.1] - 2026-10-08
 ### Added

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://global.media.stux.design/logo.png" height="100" alt="Stux.Design Logo">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.design/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.design/logo-dark.png"><img src="https://global.media.stux.design/logo-dark.png" height="100" alt="Stux.Design Logo"></picture>
 </p>
 
 ## Welcome to the Stux.Design Official GitHub!
@@ -18,9 +18,42 @@ We create brand identities, logos and visual design for businesses, creators and
 
 Stux.Design exists to give every brand a clear, consistent identity, from the logo and colours to the assets it uses every day.
 
+### Our Services
+
+| Service | What it is |
+|---|---|
+| ✏️ [Stux.Design](https://stux.design) | The design studio's own website. |
+| 🧭 [Stux.Design Services](https://services.stux.design) | Every Stux.Design service, in one place. ([repo](https://github.com/StuxDesign/Services)) |
+| 💓 [Stux.Design Status](https://status.stux.design) | Live status and uptime history of every Stux.Design site. ([repo](https://github.com/StuxDesign/Status)) |
+
+### What We Design
+
+| Service | What it is |
+|---|---|
+| 🎯 Stux.Design Brand Identities | A brand's whole look: mark, colours, type and the rules for using them. |
+| 🖋️ Stux.Design Logos & Icons | Logos, wordmarks and app icons, with light and dark variants. |
+| 🎨 Stux.Design Colour & Type Systems | Accent colours and typefaces that work on light and dark. |
+| 🏅 Stux.Design Brand Assets & Badges | Badges, social images, favicons and exported brand files. |
+
+Want one? Email [hello@stux.design](mailto:hello@stux.design?subject=New%20project).
+
+### Templates
+
+| Template | What it is |
+|---|---|
+| ⏳ [Stux.Design Soonpage](https://github.com/StuxDesign/soonpage) | A "coming soon" page for projects still on the drawing board. ([preview](https://soonpage.stux.design)) |
+| 🛠️ [Stux.Design Maintenancepage](https://github.com/StuxDesign/maintenancepage) | The page visitors see while a site is being redrawn or updated. ([preview](https://maintenancepage.stux.design)) |
+| 🪧 [Stux.Design Servicepage](https://github.com/StuxDesign/servicepage) | A placeholder for a service whose own page isn't ready yet. ([preview](https://servicepage.stux.design)) |
+
+### Service Status
+
+[![Stux.Design status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FStuxDesign%2FStatus%2Fmain%2Fdata%2Fsummary.json&query=%24.status&label=status&style=for-the-badge)](https://status.stux.design)
+
+See [status.stux.design](https://status.stux.design) for every Stux.Design site's live status and uptime history, checked every 5 minutes by [GitHup](https://githup.stux.group).
+
 ### Get Involved
 
-1. **Explore our projects**: check out our repositories to see what we're building.
+1. **Explore our services**: see the tables above, or [services.stux.design](https://services.stux.design) for the full list.
 2. **Follow us on GitHub**: stay updated on our latest releases and updates.
 
 ### Contact Us
@@ -38,5 +71,5 @@ For legal, privacy, or copyright matters, contact [legal@stux.design](mailto:leg
 
 Thank you for visiting our profile!
 
-*Built & Maintained by <img src="https://global.media.stux.design/icon.png" height="14" alt="Stux.Design" valign="middle"> [Stux.Design](https://github.com/StuxDesign), Hosted by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).  
+*Built & Maintained by <img src="https://global.media.stux.design/icon.png" height="14" alt="Stux.Design" valign="middle"> [Stux.Design](https://github.com/StuxDesign), Hosted by <img src="https://global.media.stuxedo.com/icon.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://stuxedo.com).  
 Stux.Design is a part of the <img src="https://global.media.stux.group/icon.png" height="14" alt="Stux.Group" valign="middle"> Stux.Group brand of businesses.*
