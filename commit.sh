@@ -41,4 +41,4 @@ else
   echo "Tagged $TAG"
 fi
 
-echo "Done. Push with: git push && git push origin $TAG"
+echo "Done. Push with: git push origin test && git push origin $TAG"

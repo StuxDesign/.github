@@ -4,10 +4,10 @@ Thanks for your interest in contributing to this project.
 
 ## Development Workflow
 
-1. Create a feature branch off `main`.
+1. Work on `test`, or a feature branch off it (see Branches below).
 2. Make focused, well-described commits.
 3. Describe your changes in a new `## vYY.MM.DD` entry at the top of `CHANGELOG.md` (see Versioning below).
-4. Open a pull request against `main`.
+4. Open a pull request from `test` into `main`.
 
 ## Code Style
 
@@ -20,6 +20,12 @@ For `profile/README.md`, the public org profile:
 - Link public repos only; private ones (such as `errorpages`) stay off the profile.
 - Keep the header logo as the light/dark `<picture>`, the Service Status section linking
   [status.stux.design](https://status.stux.design), and the shared Stux.Group footer.
+
+## Branches
+
+- Work on `test`, or on a feature branch off it. Never push to `main`
+- Changes reach `main` only through a pull request from `test` into `main`, which needs CI to pass and is reviewed and merged by Leo
+- Merging into `main` updates the org profile at github.com/StuxDesign; release commits and tags are made on `test` (`git push origin test --tags`) and go live when the pull request is merged
 
 ## Versioning
 

@@ -40,4 +40,4 @@ if errorlevel 1 (
   echo warning: tag %TAG% already exists, skipping tag creation
 )
 
-echo Done. Push with: git push ^&^& git push origin %TAG%
+echo Done. Push with: git push origin test ^&^& git push origin %TAG%
