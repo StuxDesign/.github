@@ -49,7 +49,7 @@ Want one? Email [hello@stux.design](mailto:hello@stux.design?subject=New%20proje
 
 [![Stux.Design status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FStuxDesign%2FStatus%2Fmain%2Fdata%2Fsummary.json&query=%24.status&label=status&style=for-the-badge)](https://status.stux.design)
 
-See [status.stux.design](https://status.stux.design) for every Stux.Design site's live status and uptime history, checked every 5 minutes by [GitHup](https://githup.stux.group).
+See [status.stux.design](https://status.stux.design) for every Stux.Design site's live status and uptime history, checked regularly by [GitHup](https://githup.stux.group).
 
 ### Get Involved
 
